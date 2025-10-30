@@ -1,0 +1,8 @@
+simple_person_detector:
+  ros__parameters:
+    input_topic: /robot/top_ptz_rgbd_camera/color/image_raw
+    win_stride: [8, 8]
+    padding: [16, 16]
+    scale: 1.05
+    downscale_factor: 1.0
+    detection_interval: 0.3
