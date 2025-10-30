@@ -21,8 +21,7 @@ source install/setup.bash
 ## Launch
 ```bash
 ros2 launch simple_person_detector simple_person_detector.launch.py \
-  config_file:=/path/to/simple_person_detector.yaml \
-  use_sim_time:=false
+  config_file:=/path/to/simple_person_detector.yaml
 ```
 
 ## Default Parameters (`config/simple_person_detector.yaml`)
